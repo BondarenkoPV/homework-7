@@ -44,7 +44,7 @@ img {
 .header {
   background: #ffffff;
 }
-.header__conteiner {
+.header-conteiner {
   display: flex;
   align-items: center;
   width: 1200px;
@@ -66,7 +66,7 @@ img {
 }
 
 /* Логотип */
-.header__logo {
+.header-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -78,10 +78,10 @@ img {
   padding-bottom: 25px;
 }
 
-.logo__blue {
+.logo-blue {
   color: #2196f3;
 }
-.logo__black {
+.logo-black {
   color: #212121;
 }
 /* Навигация */
@@ -131,14 +131,14 @@ img {
   color: #2196f3;
 }
 
-.contacts__svg__mail {
+.contacts__svg-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.contacts__svg__phone {
+.contacts__svg-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -149,20 +149,16 @@ img {
   color: #757575;
 }
 
-.contacts__link:hover {
-  color: #2196f3;
-}
+.contacts__link:hover,
 .contacts__link:focus {
   color: #2196f3;
 }
 
 .nav__studio {
   color: #2196f3;
-}
-/* underline */
-.nav__studio {
   position: relative;
 }
+/* underline */
 
 .nav__studio::after {
   content: "";
@@ -177,7 +173,7 @@ img {
 }
 
 /* Секция герой */
-.hero__section {
+.hero-section {
   background: var(--sekondary-background);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -221,7 +217,7 @@ img {
   border-radius: 4px;
 }
 
-.hero__button__tekst {
+.hero__button-tekst {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -258,7 +254,7 @@ img {
   margin-right: 30px;
 }
 
-.description__box {
+.description-box {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 100px;
@@ -267,12 +263,12 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.description__box__svg {
+.description-box__svg {
   width: 70px;
   height: 70px;
 }
 
-.description__item_title {
+.description__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -283,7 +279,7 @@ img {
   margin-bottom: 10px;
 }
 
-.description__item__text {
+.description__text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -293,18 +289,18 @@ img {
 }
 
 /* секция 3 */
-.our__work__section {
+.our-work-section {
   background: #ffffff;
   padding-bottom: 94px;
 }
-.our__work {
+.our-work {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-.secondary__text__title {
+.secondary-text-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -317,22 +313,22 @@ img {
   margin-bottom: 50px;
 }
 
-.our__work__list {
+.our-work__list {
   list-style: none;
   display: flex;
 }
 
-.our__work__item {
+.our-work__item {
   margin-right: 30px;
 }
-.our__work__list :nth-child(3) {
+.our-work__list :nth-child(3) {
   margin-right: 0px;
 }
 /* линия с текстом  */
-.our__work__box {
+.our-work__box {
   position: relative;
 }
-.our__work__cont {
+.our-work__cont {
   position: absolute;
   left: 0%;
   right: 0%;
@@ -342,7 +338,7 @@ img {
   padding-bottom: 27px;
 }
 
-.our__work__text {
+.our-work__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -355,13 +351,13 @@ img {
 }
 
 /* секция 4 */
-.section__command {
+.section-command {
   padding-top: 94px;
   padding-bottom: 94px;
   background: var(--additional-background);
 }
 
-.conteiner__section__command {
+.conteiner-section-command {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -412,18 +408,18 @@ img {
   text-align: center;
 }
 
-.box__social {
+.box-social {
   display: flex;
   list-style: none;
   justify-content: center;
   margin-top: 16px;
 }
 
-.box__social__item + .box__social__item {
+.box-social__item + .box-social__item {
   margin-left: 10px;
 }
 
-.box__social__link {
+.box-social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -438,20 +434,20 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box__social__link:hover,
-.box__social__link:focus {
+.box-social__link:hover,
+.box-social__link:focus {
   background: #2196f3;
   color: #ffffff;
 }
 
-.box__social__svg {
+.box-social__svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
 /* секция 5 */
-.regular__cliets {
+.regular-cliets {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -495,7 +491,7 @@ img {
 .footer {
   background: var(--sekondary-background);
 }
-.footer__conteiner {
+.footer-conteiner {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -503,11 +499,11 @@ img {
   margin-right: auto;
   display: flex;
 }
-.footer__box {
+.footer-box {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer__box__logo {
+.footer-box-logo {
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
@@ -518,10 +514,10 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
-.logo__White {
+.logo-White {
   color: #ffffff;
 }
-.footer__box__address {
+.footer-box__address {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -532,13 +528,13 @@ img {
   display: inline;
 }
 
-.footer__box__actual {
+.footer-box__actual {
   display: inline;
   color: #ffffff;
 
   margin-bottom: 9px;
 }
-.footer__box__link {
+.footer-box__link {
   display: inline;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -581,7 +577,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__box__mail {
+.footer-box__mail {
   margin-bottom: 9px;
 }
 
@@ -660,7 +656,7 @@ img {
   width: 24px;
   height: 24px;
 }
-.subscription__button__text {
+.subscription__button-text {
   margin-right: 10px;
   font-family: Roboto;
   font-style: normal;
@@ -747,13 +743,13 @@ img {
   color: #212121;
 }
 
-.box__form {
+.box-form {
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
-.box__form__icon {
+.box-form__icon {
   position: absolute;
   top: 50%;
   transform: translatey(+12%);
@@ -762,7 +758,7 @@ img {
   cursor: pointer;
 }
 
-.box__form__svg {
+.box-form__svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -772,7 +768,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box__form__input {
+.box-form__input {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -782,7 +778,7 @@ img {
   cursor: pointer;
 }
 
-.box__form__textarea {
+.box-form__textarea {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -795,11 +791,11 @@ img {
   padding-right: 16px;
 }
 
-.box__form:focus-within .box__form__svg {
+.box-form:focus-within .box-form__svg {
   color: #2196f3;
 }
 
-.box__form__label {
+.box-form__label {
   margin-top: 12px;
   margin-bottom: 4px;
   font-family: Roboto;
@@ -811,7 +807,7 @@ img {
   color: #757575;
 }
 
-.box__form ::placeholder {
+.box-form ::placeholder {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -845,17 +841,17 @@ img {
   margin-top: 30px;
 }
 
-.box__checkbox__input {
+.box-checkbox__input {
   appearance: none;
 }
 
-.box__checkbox {
+.box-checkbox {
   display: flex;
   margin-top: 20px;
   align-content: center;
 }
 
-.box__checkbox__label {
+.box-checkbox__label {
   display: flex;
   align-items: center;
   margin-left: 9px;
@@ -868,13 +864,13 @@ img {
   color: #757575;
 }
 
-.box__checkbox__text__blue {
+.boxcheckbox__text-blue {
   color: #2196f3;
   text-decoration: underline;
   margin-left: 5px;
 }
 
-.box__checkbox__icon {
+.box-checkbox__icon {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -887,7 +883,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box__checkbox__input:checked + .box__checkbox__icon {
+.box-checkbox__input:checked + .box-checkbox__icon {
   border-color: transparent;
   background-color: #2196f3;
   background-image: url(./img/check.svg);
