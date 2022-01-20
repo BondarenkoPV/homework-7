@@ -177,7 +177,7 @@ img {
 }
 
 /* Секция герой */
-.hero-section {
+.hero__section {
   background: var(--sekondary-background);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -195,7 +195,7 @@ img {
   margin-right: auto;
 }
 
-.hero-text-title {
+.hero__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -209,7 +209,7 @@ img {
   width: 696px;
   height: 120px;
 }
-.hero-button {
+.hero__button {
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -221,7 +221,7 @@ img {
   border-radius: 4px;
 }
 
-.hero-button-tekst {
+.hero__button__tekst {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -238,7 +238,7 @@ img {
 
   background: #ffffff;
 }
-.conteiner-description {
+.description {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -246,24 +246,19 @@ img {
   margin-right: auto;
 }
 
-.section-description ul {
+.description__list {
   list-style: none;
-}
-
-.ul-section-description {
   display: flex;
 }
-
-.li-section-description {
+.description__list:nth-child(4) {
+  margin-right: 0px;
+}
+.description__item {
   width: 270px;
   margin-right: 30px;
 }
 
-.ul-section-description :nth-child(4) {
-  margin-right: 0px;
-}
-
-.conteiner-svg-description {
+.description__box {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 100px;
@@ -272,12 +267,12 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.svg-description {
+.description__box__svg {
   width: 70px;
   height: 70px;
 }
 
-.text-title-description {
+.description__item_title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -288,7 +283,7 @@ img {
   margin-bottom: 10px;
 }
 
-.description {
+.description__item__text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -298,35 +293,46 @@ img {
 }
 
 /* секция 3 */
-.our-work-section {
+.our__work__section {
   background: #ffffff;
   padding-bottom: 94px;
 }
-.conteiner-our-work-section {
+.our__work {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-.our-work-section ul {
-  list-style: none;
+.secondary__text__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
-.ul-our-work-section {
+
+.our__work__list {
+  list-style: none;
   display: flex;
 }
 
-.li-our-work-section {
+.our__work__item {
   margin-right: 30px;
 }
-.ul-our-work-section :nth-child(3) {
+.our__work__list :nth-child(3) {
   margin-right: 0px;
 }
 /* линия с текстом  */
-.box-work-section {
+.our__work__box {
   position: relative;
 }
-.conteiner-for-text {
+.our__work__cont {
   position: absolute;
   left: 0%;
   right: 0%;
@@ -336,7 +342,7 @@ img {
   padding-bottom: 27px;
 }
 
-.text-work-section {
+.our__work__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -349,11 +355,13 @@ img {
 }
 
 /* секция 4 */
-.section-command {
+.section__command {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: var(--additional-background);
 }
-.conteiner-section-command {
+
+.conteiner__section__command {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -361,11 +369,12 @@ img {
   margin-right: auto;
 }
 
-.ul-section-command {
+.command {
   display: flex;
+  list-style: none;
 }
 
-.li-section-command {
+.command__item {
   width: 270px;
   padding-bottom: 30px;
 
@@ -376,11 +385,11 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.ul-section-command :nth-child(4) {
+.command:nth-child(4) {
   margin-right: 0px;
 }
 
-.text-title {
+.command__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -391,7 +400,7 @@ img {
   margin-top: 30px;
   text-align: center;
 }
-.position {
+.command__position {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -402,36 +411,19 @@ img {
   margin-top: 10px;
   text-align: center;
 }
-.secondary-text-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-.section-command ul {
-  list-style: none;
-}
-.section-command {
-  background: var(--additional-background);
-}
-.ul-command-link {
+
+.box__social {
   display: flex;
   list-style: none;
   justify-content: center;
   margin-top: 16px;
 }
 
-.li-command-link + .li-command-link {
+.box__social__item + .box__social__item {
   margin-left: 10px;
 }
 
-.command-link {
+.box__social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -446,16 +438,13 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.command-link:hover {
-  background: #2196f3;
-  color: #ffffff;
-}
-.command-link:focus {
+.box__social__link:hover,
+.box__social__link:focus {
   background: #2196f3;
   color: #ffffff;
 }
 
-.command-svg {
+.box__social__svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
