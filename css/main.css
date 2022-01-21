@@ -174,7 +174,7 @@ body {
 
 /* Секция герой */
 .hero-section {
-  background: var(--sekondary-background);
+  background: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
