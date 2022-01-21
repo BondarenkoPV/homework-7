@@ -88,8 +88,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-    &__link:hover,
-    &__link:focus {
+  .social__link:hover,
+  .social__link:focus {
     background-color: #2196f3;
   }
   

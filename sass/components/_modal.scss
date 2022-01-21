@@ -46,8 +46,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
   }
-  &__button:hover,
-  &__button:focus {
+  .modal__button:hover,
+  .modal__button:focus {
     color: #2196f3;
   }
   

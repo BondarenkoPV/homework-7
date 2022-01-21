@@ -42,8 +42,8 @@
     color: #212121;
     cursor: pointer;
   }
-  &__button:hover,
-  &__button:focus {
+  .main__button:hover,
+  .main__button:focus {
     background: #2196f3;
     color: #ffffff;
   }
@@ -74,7 +74,7 @@
     margin-bottom: 30px;
     flex-basis: calc(100% / 3 - 30px);
   }
-   &__item:hover {
+  .maine__item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
@@ -115,7 +115,7 @@
     height: 294px;
     overflow: hidden;
   }
-  &-card:hover .overlay-card {
+  .box-card:hover .overlay-card {
     transform: translatey(-0);
   }
   
