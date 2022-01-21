@@ -129,7 +129,7 @@ body {
   padding-bottom: 32px;
 }
 
-.contacts__list + .contacts__list {
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
