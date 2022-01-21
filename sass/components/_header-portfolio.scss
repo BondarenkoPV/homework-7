@@ -62,32 +62,33 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .nav__item + .nav__item {
-    margin-left: 50px;
-  }
+ 
   .nav__item {
     margin-left: 93px;
   }
+  &__item + &__item {
+    margin-left: 50px;
+  }
+  
   .nav__link {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+  &__link:hover,&__link:focus {
+    color: #2196f3;
+  }
+  
   
   .contacts__list {
     padding-top: 32px;
     padding-bottom: 32px;
   }
   
-  .contacts__item + .contacts__item {
+  &__item + &__item {
     margin-left: 50px;
   }
   
-  .nav__link:hover {
-    color: #2196f3;
-  }
-  .nav__link:focus {
-    color: #2196f3;
-  }
+  
   
   .contacts__svg-mail {
     width: 16px;
@@ -107,12 +108,10 @@
     color: #757575;
   }
   
-  .contacts__link:hover {
+  &__link:hover,&__link:focus {
     color: #2196f3;
   }
-  .contacts__link:focus {
-    color: #2196f3;
-  }
+ 
   
   .nav__portfolio {
     color: #2196f3;

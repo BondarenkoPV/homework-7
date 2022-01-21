@@ -1,13 +1,13 @@
-
+body {
 @import "./variables/reset";
 @import "./variables/color";
 
 
 
-body {
-    background: $primary-background;
-    font-family: Roboto;
-  }
+
+  background-color: $white-background;
+  font-family: Roboto;
+
 
   @import "./components/header";
   @import "./components/hero";
@@ -20,3 +20,4 @@ body {
 
 
  
+}

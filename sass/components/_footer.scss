@@ -88,6 +88,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  &__link:hover,
+  &__link:focus {
+    background-color: #2196f3;
+  }
   
   .footer-box__mail {
     margin-bottom: 9px;
@@ -101,10 +105,7 @@
     height: 20px;
     fill: currentColor;
   }
-  .social__link:hover,
-  .social__link:focus {
-    background-color: #2196f3;
-  }
+ 
   
   .subscription {
     margin-left: 93px;

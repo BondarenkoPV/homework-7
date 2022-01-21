@@ -17,7 +17,7 @@
     list-style: none;
     display: flex;
   }
-  .description__list:nth-child(4) {
+  &__list:nth-child(4) {
     margin-right: 0px;
   }
   .description__item {

@@ -1,7 +1,9 @@
 /* секция 5 */
 .regular-cliets {
+  background: #ffffff;
     padding-top: 94px;
     padding-bottom: 94px;
+    
   }
   
   .clients {
@@ -27,6 +29,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  &__link:hover,
+  &__link:focus {
+    color: #2196f3;
+  }
   
   .clients__svg {
     width: 106px;
@@ -34,7 +40,4 @@
     fill: currentColor;
   }
   
-  .clients__link:hover,
-  .clients__link:focus {
-    color: #2196f3;
-  }
+  
