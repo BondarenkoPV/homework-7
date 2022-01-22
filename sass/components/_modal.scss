@@ -45,11 +45,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-  }
-  .modal__button:hover,
-  .modal__button:focus {
+    &:hover,
+    &:focus {
     color: #2196f3;
-  }
+    } }
   
   .modal__svg {
     position: absolute;
@@ -79,7 +78,16 @@
     position: relative;
     display: flex;
     flex-direction: column;
-  }
+    &::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }}
+
   
   .box-form__icon {
     position: absolute;
@@ -139,15 +147,7 @@
     color: #757575;
   }
   
-  .box-form ::placeholder {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-  }
+ 
   
   .form__button {
     display: flex;

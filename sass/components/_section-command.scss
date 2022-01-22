@@ -16,7 +16,10 @@
   .command {
     display: flex;
     list-style: none;
-  }
+    &:nth-child(4) {
+    margin-right: 0px;
+    }}
+
   
   .command__item {
     width: 270px;
@@ -29,9 +32,7 @@
     border-radius: 0px 0px 4px 4px;
   }
   
-  .command:nth-child(4) {
-    margin-right: 0px;
-  }
+ 
   
   .command__title {
     font-family: Roboto;
@@ -81,12 +82,11 @@
     transition-property: backgroud, color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .box-social__link:hover,
-  .box-social__link:focus {
+    &:hover,
+    &:focus {
     background: #2196f3;
     color: #ffffff;
-  }
+    }}
   
   .box-social__svg {
     width: 20px;

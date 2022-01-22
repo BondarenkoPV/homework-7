@@ -28,11 +28,10 @@
     transition-property: color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .clients__link:hover,
-  .clients__link:focus {
+    &:hover,
+    &:focus {
     color: #2196f3;
-  }
+    }}
   
   .clients__svg {
     width: 106px;

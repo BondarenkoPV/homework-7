@@ -65,17 +65,15 @@
   
   .nav__item {
     margin-left: 93px;
-  }
-  .nav__item+ .nav__item {
+    &+ &{
     margin-left: 50px;
-  }
+  } }
   .nav__link {
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-  .nav__link:hover,.nav__link:focus{
+    &:hover,&:focus{
     color: #2196f3;
-  }
+  }}
 
   
   .contacts__list {
@@ -105,19 +103,14 @@
   
   .contacts__link {
     color: #757575;
-  }
-  
-  .contacts__link:hover,.contacts__link:focus {
+    &:hover,&:focus {
     color: #2196f3;
-  }
+  }}
   
   .nav__studio {
     color: #2196f3;
     position: relative;
-  }
-  /* underline */
-  
-  .nav__studio::after {
+    &::after {
     content: "";
     position: absolute;
     right: 0%;
@@ -127,5 +120,5 @@
     height: 4px;
     border-radius: 2px;
     background-color: #2196f3;
-  }
+  }}
   

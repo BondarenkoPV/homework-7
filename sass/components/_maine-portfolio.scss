@@ -41,12 +41,11 @@
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
-  }
-  .main__button:hover,
-  .main__button:focus {
+    &:hover,
+    &:focus {
     background: #2196f3;
     color: #ffffff;
-  }
+  }}
   
   .button-list__item,
   .maine__item {
@@ -60,11 +59,10 @@
     flex-wrap: wrap;
     margin-bottom: -30px;
     margin-right: -30px;
-  }
-  
-  .maine__link {
     text-decoration: none;
   }
+  
+ 
   .maine__item {
     display: block;
     width: 370px;
@@ -73,11 +71,10 @@
     margin-right: 30px;
     margin-bottom: 30px;
     flex-basis: calc(100% / 3 - 30px);
-  }
-  .maine__item:hover {
+    &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+    }}
   
   .text-card__title {
     font-family: Roboto;
@@ -114,10 +111,9 @@
     width: 370px;
     height: 294px;
     overflow: hidden;
-  }
-  .box-card:hover .overlay-card {
+    &:hover .overlay-card {
     transform: translatey(-0);
-  }
+    }}
   
   .overlay-card {
     position: absolute;

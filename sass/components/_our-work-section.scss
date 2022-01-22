@@ -27,14 +27,14 @@
   .our-work__list {
     list-style: none;
     display: flex;
-  }
+    & :nth-child(3) {
+    margin-right: 0px;
+    }}
   
   .our-work__item {
     margin-right: 30px;
   }
-  .our-work__list :nth-child(3) {
-    margin-right: 0px;
-  }
+  
   /* линия с текстом  */
   .our-work__box {
     position: relative;

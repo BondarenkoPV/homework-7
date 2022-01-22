@@ -16,10 +16,9 @@
   .description__list {
     list-style: none;
     display: flex;
-  }
-  .description__list:nth-child(4) {
+    &:nth-child(4) {
     margin-right: 0px;
-  }
+    }}
   .description__item {
     width: 270px;
     margin-right: 30px;
